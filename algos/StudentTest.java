@@ -31,7 +31,7 @@ public class StudentTest extends TestCase {
     @Test
     public void testCountNone() throws Exception {
         String[] students = {};
-        assertEquals(0, Student.countStudents(students));
+        assertEquals(0, Student.(students));
     }
 
     @Test
