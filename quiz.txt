@@ -1,0 +1,60 @@
+1. Comment s'appelle la branche par défaut d'un dépôt git ?
+origin master
+
+2. Comment changer de branche sous git ?
+git checkout <nom de la branche>
+
+3. Quelle commande me permet de récupérer un dépôt local à partir d'un dépôt distant ?
+git clone 
+
+4. Comment vérifier l'état de l'index de son dépôt local ?
+git status
+
+5. Quel enchaînement de commandes me permet de sauvegarder une version de code en local ?
+git add <nom du fichier> / git commit -m"commentaire" 
+
+6. Comment afficher la liste des commits effectués sur la branche en cours ?
+git log
+
+7. Quelle commande permet de se placer à la racine du système de fichier ?
+git ~
+
+8. Quelle commande permet de se placer dans le dossier personnel de l'utilisateur courant ?
+git ~
+
+9. Comment effacer l'écran de son terminal ?
+clear 
+
+10. Quelle commande permet de créer un fichier vide `README.md` ?
+mkdir.rm
+
+11. Quelle commande permet de supprimer un répertoire et tous les fichiers qu'il contient ?
+rmdir
+
+12. Quelle est la valeur de l'expression `false || !false` ?
+false
+
+13. Comment écrire de façon plus concise `i = i + 5` ?
+i += 5
+
+14. Que signifie le terme concaténation ?
+c'est le fait de regrouper 2 choses
+
+15. De quelle façon peut-on récupérer le nombre d'éléments d'un tableau nommé `students` ?
+nbElement = students.lenght 
+
+16. En Java, quelle est la valeur de int a = 21 / 100 ?
+0
+
+17. Quelle est la signature de la méthode `main` d'une classe ?
+public static void main ( arguments ) {}
+
+18. Qu'est-ce qu'une référence ?
+une référence est un "chemin" vers une instance 
+
+19. Quelle règle de nommage dois-je appliquer au nom d'une classe ?
+camelCase 
+
+20. Quelle est la version actuelle de Java ?
+14
+
