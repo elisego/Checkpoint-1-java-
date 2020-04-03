@@ -28,8 +28,9 @@ public class Student {
             String answer2 = answer[i].toUpperCase();
             if (answer2.equals("JAVA")){
                 nbJava ++;
-                i ++;
+        
             }
+        i++;
     }
     return nbJava;
 }

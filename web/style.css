@@ -64,6 +64,7 @@ nav ul {
 
 
 footer{
+    padding-top: 10px;
     background-color: #39424E;
     color: white;
     text-align: center;
@@ -92,13 +93,8 @@ nav ul li a{
     margin-right: 10px;
 }
 
-
-
-
-
-
-
 #article{
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -116,8 +112,9 @@ nav ul li a{
 #footer{
     display: flex;
     justify-content: space-around;
-
+    padding-top: 10px;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 
