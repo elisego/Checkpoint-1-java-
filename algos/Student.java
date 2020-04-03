@@ -11,10 +11,13 @@ public class Student {
     
     // TODO getGroup
     public static char getGroup(int number){
-        if (number % 2 == 0){
-            return 'A';
-        }
-        return 'B';
+        if (number>0){
+            if (number % 2 == 0){
+                return 'A';
+            }
+            return 'B';
+            }
+        return ' ';
     }
 
     // TODO countStudents
@@ -25,7 +28,7 @@ public class Student {
             String answer2 = answer[i].toUpperCase();
             if (answer2.equals("JAVA")){
                 nbJava ++;
-                i++;
+                i ++;
             }
     }
     return nbJava;

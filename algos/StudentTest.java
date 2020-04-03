@@ -31,9 +31,9 @@ public class StudentTest extends TestCase {
     @Test
     public void testCountNone() throws Exception {
         String[] students = {};
-        assertEquals(0, Student.(students));
+        assertEquals(0, Student.countStudents(students));
     }
-
+   
     @Test
     public void testCountStudents() throws Exception {
         String[] students = {"java", "js", "Java", "PHP", "JS", "JAVA", "Java"};
